@@ -1,13 +1,16 @@
 import './App.css';
 import Header from './components/header/Header';
-import Homepage from './pages/Homepage';
-
+import Home from './components/home/Home.js'
+import Internets from './components/internets/Internets';
+import Services from './components/internets/Internets.js'
 
 function App() {
   return (
     <>
     <Header />
-    <Homepage />
+    <Home />
+    <Internets />
+    <Services />
     </>
   );
 }
